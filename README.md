@@ -16,12 +16,6 @@ A beautiful, interactive web application that demonstrates the **Approximate Nea
 - **Tree Exploration**: Node selection, filtering, and path tracing
 - **Approximate Search**: Find k-nearest neighbors with adjustable search parameters
 
-### 🎨 Interactive UI
-- **Modern Design**: Clean, responsive interface built with Streamlit
-- **Real-time Updates**: Generate new data and perform searches instantly
-- **Visual Results**: See search results highlighted on scatter plots
-- **Statistics Dashboard**: View key metrics about your data
-
 ## 🛠️ Installation
 
 1. **Clone the repository**:
@@ -47,7 +41,7 @@ A beautiful, interactive web application that demonstrates the **Approximate Nea
 ### 1. Generate Data
 - Choose a data distribution type (Uniform, Normal, or Clustered)
 - Set the minimum and maximum values for your data range
-- Adjust the number of data points (10-1000)
+- Adjust the number of data points (10-100)
 - Click "Generate New Data" to create a new dataset
 
 ### 2. Configure ANNOY Parameters
@@ -175,5 +169,6 @@ print(f"Nearest neighbors to 50: {results}")
 ```
 
 ---
+
 
 **Happy exploring! 🌳✨** 
